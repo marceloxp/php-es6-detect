@@ -4,10 +4,10 @@
     "keywords": ["php", "es6", "javascript"],
     "license": "MIT",
     "type": "package",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "require": {
         "php": ">=7.0.0",
-        "cbschuld/browser.php": "^1.95"
+        "cbschuld/browser.php": "^1.95@dev"
     },
     "require-dev": {
         "digitalnature/php-ref": "dev-master"
@@ -25,12 +25,8 @@
             "marceloxp\\PhpEs6Detect\\" : "src/"
         }
     },
-    "config": {
-        "sort-packages": true,
-        "optimize-autoloader": true
-    },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
