@@ -1,0 +1,31 @@
+{
+    "name": "marceloxp/php-es6-detect",
+    "description": "Class PHP to Browser ES6 compatibility detect",
+    "type": "package",
+    "keywords": [
+        "php", "es6", "javascript"
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "cbschuld/browser.php": "^1.95@dev"
+    },
+    "require-dev": {
+        "digitalnature/php-ref": "dev-master"
+    },
+    "homepage": "https://github.com/marceloxp/php-es6-detect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MarceloXP",
+            "email": "marceloxp@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "marceloxp\\PhpEs6Detect\\" : "src/"
+        }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev"
+}
