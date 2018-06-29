@@ -31,12 +31,12 @@ class PhpEs6Detect
 		return $support;
 	}
 
-	public static function setScriptFolder($p_javascript_script_folder = 'js', $p_define_name = 'JSFOLDER')
+	public static function setScriptFolder($p_define_name = 'JSFOLDER', $p_javascript_script_folder = 'js', $p_ecmascript6_script_folder = 'es6')
 	{
 		if (!defined($p_define_name))
 		{
 			$is_es6 = self::detect();
-			$folder = ($is_es6) ? 'es6' : $p_javascript_script_folder;
+			$folder = ($is_es6) ? $p_ecmascript6_script_folder : $p_javascript_script_folder;
 			define($p_define_name, $folder);
 		}
 	}

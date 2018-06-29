@@ -20,20 +20,23 @@ OR
 ## Usage
 
 ### Option 1
+
 ```php
 use \marceloxp\PhpEs6Detect;
-PhpEs6Detect::setScriptFolder('scripts');
+PhpEs6Detect::setScriptFolder();
 <script type="text/javascript" src="<?php echo JSFOLDER; ?>/main.js"></script>
 ```
 
 ### Option 2
+
 ```php
 use \marceloxp\PhpEs6Detect;
-PhpEs6Detect::setScriptFolder('scripts', 'MYJSFOLDER');
+PhpEs6Detect::setScriptFolder('MYJSFOLDER', 'scripts', 'es6');
 <script type="text/javascript" src="<?php echo MYJSFOLDER; ?>/main.js"></script>
 ``` 
 
 ### Result Script
+
 ```php
 // Case ES6 suport:
 <script type="text/javascript" src="es6/main.js"></script>

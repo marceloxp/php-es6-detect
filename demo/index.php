@@ -4,7 +4,7 @@
 	require_once dirname(dirname(__FILE__)) . '/vendor/autoload.php';
 	require_once dirname(dirname(__FILE__)) . '/src/PhpEs6Detect.php';
 	use \marceloxp\PhpEs6Detect;
-	PhpEs6Detect::setScriptFolder('js');
+	PhpEs6Detect::setScriptFolder('JS', 'js', 'es6');
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,6 +17,6 @@
 	<h1>PHP ES6 Detect</h1>
 	<hr/>
 	<div id="jsengine">Could not detect Script version.</div>
-	<script type="text/javascript" src="<?php echo JSFOLDER; ?>/main.js"></script>
+	<script type="text/javascript" src="<?php echo JS; ?>/main.js"></script>
 </body>
 </html>
