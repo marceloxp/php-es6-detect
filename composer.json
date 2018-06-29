@@ -4,10 +4,10 @@
     "keywords": ["php", "es6", "javascript"],
     "license": "MIT",
     "type": "package",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "require": {
         "php": ">=7.0.0",
-        "cbschuld/browser.php": "^1.95@dev"
+        "cbschuld/browser.php": "^1.95"
     },
     "require-dev": {
         "digitalnature/php-ref": "dev-master"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4749fa22307eec8564d053d4d945927",
+    "content-hash": "21ef587d77b11dd0233c9a575929833d",
     "packages": [
         {
             "name": "cbschuld/browser.php",
@@ -92,7 +92,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cbschuld/browser.php": 20,
         "digitalnature/php-ref": 20
     },
     "prefer-stable": true,
