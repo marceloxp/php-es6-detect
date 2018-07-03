@@ -6,7 +6,7 @@
     "type": "package",
     "require": {
         "php": ">=7.0.0",
-        "cbschuld/browser.php": "*"
+        "cbschuld/browser.php": "1.95-dev"
     },
     "require-dev": {
         "digitalnature/php-ref": "dev-master"
@@ -26,7 +26,7 @@
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
-            "dev-master": "1.4-dev"
+            "dev-master": "1.5-dev"
         }
     }
 }
