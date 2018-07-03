@@ -6,7 +6,7 @@
     "type": "package",
     "require": {
         "php": ">=7.0.0",
-        "cbschuld/browser.php": "dev-master"
+        "cbschuld/browser.php": "1.95-dev"
     },
     "require-dev": {
         "digitalnature/php-ref": "dev-master"
@@ -20,15 +20,13 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "marceloxp\\PhpEs6Detect\\" : "src/"
-        }
+        "files": ["src/PhpEs6Detect.php"]
     },
     "minimum-stability": "dev",
     "prefer-stable": false,
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1-dev"
+            "dev-master": "1.2-dev"
         }
     }
 }
